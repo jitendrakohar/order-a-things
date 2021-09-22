@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="quantity" translatable="false">दबकतग</string>
+    <string name="order" translatable="false">फगिबा</string>
+    <string name="price" translatable="false">नवभ</string>
+    <string name="cost" translatable="false">नजजम</string>
+    <string name="name" translatable="false">वषक</string>
+    <string name="sandwich" translatable="false">वनपवष</string>
+</resources>

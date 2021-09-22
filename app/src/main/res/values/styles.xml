@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="headingStyle" >
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#4527A0</item>
+    <item name="android:textStyle">italic</item>
+    <item name="android:textAllCaps">true</item>
+
+</style>
+    <style name="checkBoxStyle">
+        <item name="android:textSize">15sp</item>
+       <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:radius">40dp</item>
+    </style>
+
+</resources>

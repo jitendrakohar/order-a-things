@@ -1,0 +1,126 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+<EditText
+    android:id="@+id/nameText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:hint="@string/name"
+    android:layout_marginBottom="10dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/food_list"
+        style="@style/headingStyle"
+       />
+
+    <CheckBox
+        android:id="@+id/checkboxsand"
+        style="@style/checkBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sandwich"
+        />
+        <CheckBox
+        style="@style/checkBoxStyle"
+            android:id="@+id/checkboxchoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chocalate"
+            />
+
+    <TextView
+        style="@style/headingStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/quantity"
+
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addCoffees"
+            android:text="@string/u002b"
+            android:textAlignment="center"
+           style="@style/buttonStyle"
+
+           />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/_0"
+            android:textAllCaps="true"
+            android:textSize="40sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="removeCoffees"
+            android:textAlignment="center"
+            android:text="@string/minus"
+            style="@style/buttonStyle"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/price"
+        style="@style/headingStyle"
+        />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/_0"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/quantity_Text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:onClick="submitOrder"
+        android:text="@string/order"
+        style="@style/buttonStyle"
+
+    />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
